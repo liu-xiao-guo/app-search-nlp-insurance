@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Config
+default.json
+
+# Angular cache
+front-end/.angular
