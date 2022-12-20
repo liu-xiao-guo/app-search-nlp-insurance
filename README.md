@@ -1,5 +1,5 @@
 # Harnessing Search to Advance Equity in Healthcare
-Accompanying blog: https://docs.google.com/document/d/1xGa81dVTaaferR5rq8OWDNNTP7Cf0BiSWovELflziho/edit#heading=h.kjxrjani732v
+Accompanying blog: https://www.elastic.co/blog/harnessing-search-to-advance-equity-in-healthcare
 
 ## Create Elastic Deployment
 Navigate to https://www.elastic.co/industries/public-sector/fedramp and create a 30-day free trial. Adjust the ML instance to 4GB RAM.
