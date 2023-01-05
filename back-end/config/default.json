@@ -1,0 +1,11 @@
+{
+  "elastic": {
+    "username": "elastic",
+    "password": "7nb2W-HRb*DxTPN=Xi=K",
+    "certificate": "/Users/liuxg/elastic/elasticsearch-8.5.3/config/certs/http_ca.crt",
+    "apiKey": "ZkFrZWdZVUI3dGprdTJTbHRrTE06Tk11cFZ0R2NTbGVJdldTQmloeW5GZw==",
+    "appSearchApiKey": "search-qg47imafckpwfbmrq6j7m3u5", 
+    "elasticEndpoint": "https://localhost:9200",
+    "entSearchEndpoint": "http://localhost:3002"
+  }
+}
