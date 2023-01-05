@@ -1,17 +1,19 @@
 const { Client } = require('@elastic/elasticsearch');
+const fs = require('fs')
 const config = require('config');
 
 const elasticConfig = config.get('elastic');
 
-const client = new Client({
-  cloud: {
-    id: elasticConfig.cloudID,
-  },
-  auth: {
+const client = new Client ( {
+  node: elasticConfig.elasticEndpoint,
+  auth: { 
     username: elasticConfig.username,
     password: elasticConfig.password
-    // apiKey: elasticConfig.apiKey
-  },
+   }, 
+   tls: {
+    ca: fs.readFileSync(elasticConfig.certificate),
+    rejectUnauthorized: true
+   }
 });
 
 client.ping()

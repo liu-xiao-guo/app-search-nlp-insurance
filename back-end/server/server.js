@@ -32,7 +32,7 @@ async function infer_nlp_vectors(query) {
 }
 
 async function semanticSearch(query_dense_vector) {
-  const response = axios.get(elasticEndpoint + '/insurance-qa-embeddings/_search', {
+  const response = axios.get(elasticEndpoint + '/insurance-questions-embeddings/_search', {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': 'ApiKey ' + elasticConfig.apiKey
