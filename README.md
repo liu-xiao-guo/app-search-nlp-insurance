@@ -63,7 +63,7 @@ PUT insurance-questions-embeddings
 {
   "mappings": {
     "properties": {
-      "text_embedding.predicted_value": {
+      "qa_text_embedding.predicted_value": {
         "type": "dense_vector",
         "dims": 512,
         "index": true,
